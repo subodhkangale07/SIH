@@ -13,7 +13,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/Bail-Reckoner" element={<Home />} />
+        <Route path="/SIH" element={<Home />} />
         <Route path="/apply-for-bail" element={<BailApplicationForm />} />
         <Route path="/judicial-page" element={<JudicialPage />} />
         <Route path="/bail-status" element={<BailStatusPage />} />
