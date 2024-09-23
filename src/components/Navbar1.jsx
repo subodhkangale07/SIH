@@ -10,7 +10,7 @@ const Navbar = () => {
           <h1 className="font-bold text-xl">Government Of India </h1>
         </div>
         <ul className="flex space-x-6">
-          <li><Link to="/" className="hover:underline">Home</Link></li>
+          <li><Link to="/SIH" className="hover:underline">Home</Link></li>
           <li><Link to="/apply-for-bail" className="hover:underline">Apply for Bail</Link></li>
           <li><Link to="/eligibility-check" className="hover:underline">Check History & Status</Link></li>
           <li><Link to="/bailStatus" className="hover:underline">Bail Verdict by Judicial Board</Link></li>
